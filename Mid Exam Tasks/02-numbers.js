@@ -28,8 +28,8 @@ function numbers(arr){
         
     }   else if(action ==` Collapse`){
             let value = Number(tokens[1]);
-            nums.forEach(num, index); {
-                if(num < value){
+            nums.forEach(nums, index); {
+                if(nums < value){
                     nums.splice(index,1)
                 }
             }
