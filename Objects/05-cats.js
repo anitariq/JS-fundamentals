@@ -28,6 +28,6 @@ class Cat {
     }
 
 }
-let cat = new Cat(`Tom`, 7);
+let cat = new Cat('Tom', 7);
 console.log(cat);
 cat.meow();

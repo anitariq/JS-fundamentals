@@ -27,11 +27,12 @@ function moviesManage(arr){
     }
 
     for( let movie of movies){
-        if(movie.name && movie.date && movie.date){
+        if(movie.name && movie.director && movie.date){
             console.log(JSON.stringify(movie));
         }
     }
 }
+
 moviesManage([
 
     'addMovie Fast and Furious',
